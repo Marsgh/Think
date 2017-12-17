@@ -1,0 +1,19 @@
+{
+	"require": {
+	  	"noahbuscher/macaw": "dev-master",
+	  	"marsgh/message_queue": "dev-master",
+	  	"illuminate/database":"*"
+	},
+  	"autoload":{
+		"classmap": [
+			"app/controllers",
+		  	"app/models"
+		]
+	},
+	"repositories": {
+	  "packagist": {
+		"type": "composer",
+		"url": "https://packagist.phpcomposer.com"
+	  }
+	}
+}
