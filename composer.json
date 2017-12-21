@@ -1,5 +1,5 @@
 {
-	"name":"Marsgh/Think",
+	"name":"marsgh/think",
 	"description":"A Simple PHP Framework Based On Composer",
 	"keywords":["Think "],
 	"authors":[
@@ -20,11 +20,6 @@
 			"app/controllers",
 		  	"app/models"
 		]
-	},
-	"repositories": {
-	  "packagist": {
-		"type": "composer",
-		"url": "https://packagist.phpcomposer.com"
-	  }
 	}
+
 }
