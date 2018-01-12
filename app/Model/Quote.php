@@ -5,6 +5,8 @@
  * Date: 17/4/23
  * Time: 下午3:36
  */
+namespace App\Model;
+
 class Quote {
 
 

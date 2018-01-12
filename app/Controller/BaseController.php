@@ -1,4 +1,5 @@
 <?php
+namespace App\Controller;
 /**
  * Created by PhpStorm.
  * User: Mars

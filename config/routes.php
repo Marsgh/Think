@@ -2,10 +2,12 @@
 
 use NoahBuscher\Macaw\Macaw;
 
-Macaw::get('',function(){
+Macaw::get('/',function(){
 	echo '成功！';
 });
 
-Macaw::get('/home','HomeController@home');
+Macaw::get('home','HomeController@home');
+Macaw::get('pull','HomeController@pull');
+Macaw::get('page','HomeController@page');
 
-Macaw::dispatch();
+Macaw::dispatch('WebView@process');
